@@ -1,0 +1,62 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "breach_entry",
+    "name": "underground breach",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "subway",
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_up",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "subway",
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_down",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "subway",
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_edge",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "subway",
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_corner",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "subway",
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_center",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "extras": "subway",
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  }
+]
