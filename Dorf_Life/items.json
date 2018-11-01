@@ -96,6 +96,7 @@
     "type": "COMESTIBLE",
     "id": "caveyot_bush_quarry_cooked",
     "name": "handful of roasted hardened bramble nuts",
+    "looks_like": "hickory_nut_roasted",
     "weight": 120,
     "color": "brown",
     "spoils_in": 6480,
