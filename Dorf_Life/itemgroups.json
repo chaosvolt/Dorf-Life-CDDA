@@ -220,10 +220,11 @@
       { "group": "museum_armor", "prob": 10 },
       { "group": "cannedfood", "prob": 20 },
       { "group": "caveyot_minetown_tools", "prob": 8 },
-      { "item": "juice", "prob": 5, "charges": 2, "container-item": "can_drink" },
-      [ "water_clean", 5 ],
-      [ "beer", 4 ],
-      [ "miniifreezer", 3 ]
+      { "group": "drugs_pharmacy", "prob": 16 },
+      [ "note", 16 ],
+      { "group": "mansion_books", "prob": 4 },
+      { "group": "homeguns", "prob": 4 },
+      { "group": "jewelry_front", "prob": 12 }
     ]
   },
   {
