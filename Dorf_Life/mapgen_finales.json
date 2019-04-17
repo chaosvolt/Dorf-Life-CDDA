@@ -41,15 +41,19 @@
         "A": "t_rock_floor"
       },
       "furniture": { "A": "f_slab" },
-      "place_nested": [
-        { "chunks": [ [ "null", 50 ], [ "breach_spawn_standard", 50 ] ], "x": [ 9, 10 ], "y": [ 9, 10 ] },
-        { "chunks": [ [ "null", 40 ], [ "breach_chunk_pillar", 60 ] ], "x": [ 0, 2 ], "y": [ 16, 18 ] },
-        { "chunks": [ [ "null", 40 ], [ "breach_chunk_pillar", 60 ] ], "x": [ 16, 18 ], "y": [ 16, 18 ] },
-        { "chunks": [ [ "null", 75 ], [ "breach_chunk_1", 25 ] ], "x": [ 0, 19 ], "y": [ 1, 19 ], "repeat": 4 }
+      "place_loot": [
+        { "group": "caveyot_minetown_general", "x": [ 31, 33 ], "y": [ 15, 17 ], "chance": 90, "repeat": 12 },
+        { "group": "caveyot_minetown_tools", "x": [ 26, 27 ], "y": [ 8, 10 ], "chance": 90, "repeat": 8 },
+        { "group": "caveyot_minetown_wands", "x": [ 40, 42 ], "y": [ 10, 11 ], "chance": 90, "repeat": 8 },
+        { "group": "caveyot_minetown_food", "x": [ 47, 49 ], "y": [ 13, 14 ], "chance": 90, "repeat": 8 },
+        { "group": "caveyot_minetown_tools", "x": [ 38, 40 ], "y": [ 15, 17 ], "chance": 90, "repeat": 12 },
+        { "group": "caveyot_minetown_light", "x": [ 46, 48 ], "y": [ 7, 9 ], "chance": 90, "repeat": 12 },
+        { "item": "id_military", "x": [ 3, 5 ], "y": [ 3, 5 ] }
       ],
       "place_monster": [
         { "monster": "mon_kreck", "x": [ 21, 51 ], "y": [ 5, 19 ], "repeat": [ 5, 10 ] },
-        { "monster": "mon_zombie_cop", "x": [ 21, 51 ], "y": [ 5, 19 ], "repeat": [ 2, 4 ] }
+        { "monster": "mon_zombie_cop", "x": [ 21, 51 ], "y": [ 5, 19 ], "repeat": [ 2, 4 ] },
+        { "monster": "mon_zombie_necro", "x": 32, "y": 7 }
       ]
     }
   }
