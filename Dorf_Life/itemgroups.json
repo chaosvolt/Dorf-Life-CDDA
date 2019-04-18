@@ -221,7 +221,7 @@
       { "group": "cannedfood", "prob": 20 },
       { "group": "caveyot_minetown_tools", "prob": 8 },
       { "group": "drugs_pharmacy", "prob": 16 },
-      [ "note", 16 ],
+      [ "survnote", 16 ],
       { "group": "mansion_books", "prob": 4 },
       { "group": "homeguns", "prob": 4 },
       { "group": "jewelry_front", "prob": 12 }
@@ -267,7 +267,7 @@
     "ammo": 75,
     "items": [
       { "group": "homeguns", "prob": 90 },
-      { "gloves_leather", 5 ],
+      [ "gloves_leather", 5 ],
       [ "jedi_cloak", 5 ]
     ]
   },
@@ -281,7 +281,7 @@
       { "item": "juice", "prob": 5, "charges": 2, "container-item": "can_drink" },
       [ "water_clean", 5 ],
       [ "beer", 4 ],
-      [ "miniifreezer", 3 ]
+      [ "minifreezer", 3 ]
     ]
   },
   {

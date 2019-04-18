@@ -58,5 +58,32 @@
     "see_cost": 2,
     "extras": "subway",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_1",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_2",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_3",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   }
 ]

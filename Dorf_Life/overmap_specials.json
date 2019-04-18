@@ -42,13 +42,13 @@
       { "point": [ 1, 2, -6 ], "overmap": "breach_edge_south" },
       { "point": [ 2, 2, -6 ], "overmap": "breach_corner_south" },
       { "point": [ 0, 0, -7 ], "overmap": "breach_corner_north" },
-      { "point": [ 1, 0, -7 ], "overmap": "breach_up_north" },
+      { "point": [ 1, 0, -7 ], "overmap": "breach_finale_1_east" },
       { "point": [ 2, 0, -7 ], "overmap": "breach_corner_east" },
       { "point": [ 0, 1, -7 ], "overmap": "breach_edge_west" },
-      { "point": [ 1, 1, -7 ], "overmap": "breach_center_north" },
+      { "point": [ 1, 1, -7 ], "overmap": "breach_finale_2_east" },
       { "point": [ 2, 1, -7 ], "overmap": "breach_edge_east" },
       { "point": [ 0, 2, -7 ], "overmap": "breach_corner_west" },
-      { "point": [ 1, 2, -7 ], "overmap": "breach_edge_south" },
+      { "point": [ 1, 2, -7 ], "overmap": "breach_finale_3_east" },
       { "point": [ 2, 2, -7 ], "overmap": "breach_corner_south" }
     ],
     "connections": [
