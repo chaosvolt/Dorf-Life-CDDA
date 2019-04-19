@@ -244,6 +244,7 @@
       "B": "t_thconc_floor",
       "C": "t_thconc_floor",
       "D": "t_thconc_floor",
+      "F": "t_thconc_floor",
       "G": "t_generator_broken",
       "T": "t_thconc_floor",
       "V": "t_thconc_floor_olight",
@@ -257,7 +258,7 @@
       "f": "t_chainfence",
       "g": "t_chaingate_l",
       "l": "t_thconc_floor",
-      "m": [ "t_cave_moss", "t_shrub_helmet_plump", "t_shrub_pod_sweet", "t_shrub_wheat_cave", "t_shrub_tails_pig", "t_shrub_bush_quarry" ],
+      "m": [ "t_cave_moss", "t_cave_moss", "t_shrub_helmet_plump", "t_shrub_pod_sweet", "t_shrub_wheat_cave", "t_shrub_tails_pig", "t_shrub_bush_quarry" ],
       "o": "t_thconc_floor",
       "r": "t_thconc_floor",
       "s": "t_thconc_floor",
@@ -267,11 +268,27 @@
       "w": "t_reinforced_door_glass_lab_c",
     },
     "furniture": {
-      "%": "f_rubble_rock",
-      "o": [ "f_null", "f_null", "f_boulder_small", "f_boulder_medium" ],
-      "O": [ "f_boulder_medium", "f_boulder_large", "f_boulder_large" ]
+      "[": "f_bookcase",
+      "1": "f_autodoc",
+      "2": "f_autodoc_couch",
+      "B": "f_bed",
+      "C": "f_counter",
+      "D": "f_dressed",
+      "F": "f_fridge",
+      "T": "f_toilet",
+      "V": "f_vending_o",
+      "b": "f_bench",
+      "c": "f_chair",
+      "d": "f_desk",
+      "e": "f_table",
+      "l": "f_locker",
+      "o": "f_oven",
+      "r": "f_rack",
+      "s": "f_sink",
+      "t": "f_trashcan",
+      "v": "f_vending_o"
     },
-    "mapping": { "%": { "item": [ { "item": "rock", "count": [ 1, 3 ] } ] } }
+    "mapping": { "B": { "items": [ { "item": "bed" } ] }, "D": { "items": [ { "item": "dresser" } ] } }
   },
   {
     "type": "mapgen",
