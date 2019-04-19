@@ -71,6 +71,15 @@
   {
     "type": "overmap_terrain",
     "id": "breach_finale_2",
+    "name": "abandoned market",
+    "sym": "^",
+    "color": "h_dark_gray",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_3",
     "name": "underground cavern",
     "sym": 35,
     "color": "brown",
@@ -79,7 +88,52 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "breach_finale_3",
+    "id": "breach_finale_4",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_5",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_6",
+    "name": "science lab",
+    "sym": "L",
+    "color": "blue",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_7",
+    "name": "science lab",
+    "sym": "L",
+    "color": "blue",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_8",
+    "name": "underground cavern",
+    "sym": 35,
+    "color": "brown",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_9",
     "name": "underground cavern",
     "sym": 35,
     "color": "brown",
