@@ -291,7 +291,7 @@
       "v": "f_vending_o"
     },
     "toilets": { "T": {  } },
-    "mapping": { "B": { "items": [ { "item": "bed", "chance": 80 } ] }, "D": { "items": [ { "item": "dresser", "chance": 90 } ] }, "t": { "items": [ { "item": "trash", "chance": 60 } ] } }
+    "mapping": { "B": { "items": [ { "item": "bed", "chance": 80 } ] }, "D": { "items": [ { "item": "dresser", "chance": 90 } ] }, "t": { "items": [ { "item": "trash", "chance": 60 } ] }, "n": { "items": [ { "item": "oven", "chance": 75 } ] }, "A": { "items": [ { "item": "cloning_vat", "chance": 80 } ] } }
   },
   {
     "type": "mapgen",
