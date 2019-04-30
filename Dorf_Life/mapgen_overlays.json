@@ -294,6 +294,40 @@
     "mapping": { "B": { "items": [ { "item": "bed", "chance": 80 } ] }, "D": { "items": [ { "item": "dresser", "chance": 90 } ] }, "t": { "items": [ { "item": "trash", "chance": 60 } ] }, "n": { "items": [ { "item": "oven", "chance": 75 } ] }, "A": { "items": [ { "item": "cloning_vat", "chance": 80 } ] } }
   },
   {
+    "type": "palette",
+    "id": "breach_camp",
+    "terrain": {
+      "|": "t_log_wall",
+      "+": "t_door_c",
+      "[": "t_rock_floor",
+      "^": "t_lava",
+      "B": "t_rock_floor",
+      "C": "t_rock_floor",
+      "D": "t_rock_floor",
+      "F": "t_rock_floor",
+      "P": "t_rock_wall",
+      "W": "t_reinforced_glass",
+      "c": "t_rock_floor",
+      "d": "t_rock_floor",
+      "e": "t_rock_floor",
+      "m": [ "t_cave_moss", "t_cave_moss", "t_shrub_helmet_plump", "t_shrub_pod_sweet", "t_shrub_wheat_cave", "t_shrub_tails_pig", "t_shrub_bush_quarry" ],
+      "r": "t_rock_floor",
+      "s": "t_floor_primitive"
+    },
+    "furniture": {
+      "B": "f_bed",
+      "C": "f_counter",
+      "D": "f_dresser",
+      "F": "f_fireplace",
+      "c": "f_chair",
+      "d": "f_desk",
+      "e": "f_table",
+      "r": "f_rack"
+    },
+    "toilets": { "T": {  } },
+    "mapping": { "B": { "items": [ { "item": "bed", "chance": 80 } ] }, "D": { "items": [ { "item": "dresser", "chance": 90 } ] }, "n": { "items": [ { "item": "oven", "chance": 
+  }
+  {
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "breach_chunk_pillar",
