@@ -301,32 +301,47 @@
       "+": "t_door_c",
       "[": "t_rock_floor",
       "^": "t_lava",
+      "A": "t_rock_floor",
       "B": "t_rock_floor",
       "C": "t_rock_floor",
       "D": "t_rock_floor",
       "F": "t_rock_floor",
+      "K": "t_rock_floor",
       "P": "t_rock_wall",
       "W": "t_reinforced_glass",
+      "b": "t_floor_primitive"
       "c": "t_rock_floor",
-      "d": "t_rock_floor",
+      "d": "t_floor_primitive",
       "e": "t_rock_floor",
+      "f": "t_rock_floor",
+      "k": "t_rock_floor",
+      "l": "t_rock_floor",
       "m": [ "t_cave_moss", "t_cave_moss", "t_shrub_helmet_plump", "t_shrub_pod_sweet", "t_shrub_wheat_cave", "t_shrub_tails_pig", "t_shrub_bush_quarry" ],
       "r": "t_rock_floor",
       "s": "t_floor_primitive"
     },
     "furniture": {
+      "A": "f_anvil",
       "B": "f_bed",
       "C": "f_counter",
       "D": "f_dresser",
       "F": "f_fireplace",
+      "K": "f_wood_keg",
+      "b": "f_bed_makeshift",
       "c": "f_chair",
-      "d": "f_desk",
+      "d": "f_dresser",
       "e": "f_table",
+      "f": "f_forge",
+      "k": "f_kiln_empty",
+      "l": "f_locker",
       "r": "f_rack"
     },
-    "toilets": { "T": {  } },
-    "mapping": { "B": { "items": [ { "item": "bed", "chance": 80 } ] }, "D": { "items": [ { "item": "dresser", "chance": 90 } ] }, "n": { "items": [ { "item": "oven", "chance": 
-  }
+    "mapping": {
+      "B": { "items": [ { "item": "bed", "chance": 80 } ] },
+      "D": { "items": [ { "item": "dresser", "chance": 90 } ] },
+      "b": { "items": [ { "item": "bed", "chance": 80 } ] },
+      "v": { "items": [ { "item": "dresser", "chance": 90 } ] }
+    }
   {
     "type": "mapgen",
     "method": "json",
