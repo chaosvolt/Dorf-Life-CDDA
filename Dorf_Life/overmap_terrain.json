@@ -139,5 +139,41 @@
     "color": "brown",
     "see_cost": 2,
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_10",
+    "name": "hidden camp",
+    "sym": 35,
+    "color": "dark_gray",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_11",
+    "name": "hidden camp",
+    "sym": 35,
+    "color": "dark_gray",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_12",
+    "name": "hidden camp",
+    "sym": 35,
+    "color": "dark_gray",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "breach_finale_13",
+    "name": "hidden camp",
+    "sym": 35,
+    "color": "dark_gray",
+    "see_cost": 2,
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   }
 ]

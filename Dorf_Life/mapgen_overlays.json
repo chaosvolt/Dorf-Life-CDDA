@@ -297,10 +297,10 @@
     "type": "palette",
     "id": "breach_camp",
     "terrain": {
-      "|": "t_log_wall",
+      "|": "t_wall_log",
       "+": "t_door_c",
       "[": "t_rock_floor",
-      "^": "t_lava",
+      "^": "t_utility_light",
       "A": "t_rock_floor",
       "B": "t_rock_floor",
       "C": "t_rock_floor",
@@ -309,7 +309,7 @@
       "K": "t_rock_floor",
       "P": "t_rock_wall",
       "W": "t_reinforced_glass",
-      "b": "t_floor_primitive"
+      "b": "t_floor_primitive",
       "c": "t_rock_floor",
       "d": "t_floor_primitive",
       "e": "t_rock_floor",
@@ -327,7 +327,7 @@
       "D": "f_dresser",
       "F": "f_fireplace",
       "K": "f_wood_keg",
-      "b": "f_bed_makeshift",
+      "b": "f_makeshift_bed",
       "c": "f_chair",
       "d": "f_dresser",
       "e": "f_table",
@@ -342,6 +342,7 @@
       "b": { "items": [ { "item": "bed", "chance": 80 } ] },
       "v": { "items": [ { "item": "dresser", "chance": 90 } ] }
     }
+  },
   {
     "type": "mapgen",
     "method": "json",

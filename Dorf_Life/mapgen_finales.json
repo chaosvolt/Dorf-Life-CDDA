@@ -259,7 +259,7 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [
-      [ "breach_finale_10", "breach_finale_11" ],
+      [ "breach_finale_10", "breach_finale_11" ]
     ],
     "weight": 100,
     "object": {
@@ -289,25 +289,23 @@
         ",,P,,,,,###,,,,,,,,,,,,,,,P,,,,,,,,,,,,,,,,,,P,,",
         ",,P,,,,,#^W,,,,,,,,,,,,,,,P,,,,,,,,,,,,,,,,,,P,,"
       ],
-      "set": [
-        { "point": "trap", "id": "tr_landmine", "x": [ 6, 23 ], "y": [ 4, 5 ], "repeat": [ 1, 4 ] },
-        { "point": "trap", "id": "tr_landmine", "x": [ 4, 6 ], "y": [ 6, 23 ], "repeat": [ 1, 4 ] },
-        { "point": "trap", "id": "tr_landmine", "x": [ 24, 41 ], "y": [ 4, 5 ], "repeat": [ 1, 4 ] },
-        { "point": "trap", "id": "tr_landmine", "x": [ 41, 43 ], "y": [ 6, 18 ], "repeat": [ 1, 4 ] }
+      "palettes": [ "breach", "breach_camp" ],
+      "place_traps": [
+        { "trap": "tr_landmine", "x": [ 6, 23 ], "y": [ 4, 5 ], "repeat": [ 1, 4 ] },
+        { "trap": "tr_landmine", "x": [ 4, 6 ], "y": [ 6, 23 ], "repeat": [ 1, 4 ] },
+        { "trap": "tr_landmine", "x": [ 24, 41 ], "y": [ 4, 5 ], "repeat": [ 1, 4 ] },
+        { "trap": "tr_landmine", "x": [ 41, 43 ], "y": [ 6, 18 ], "repeat": [ 1, 4 ] }
       ],
-      "place_items": [
-        { "item": "stash_wood", "x": [ 12, 12 ], "y": [ 8, 10 ], "chance": 85 },
-        { "item": "home_hw", "x": [ 12, 12 ], "y": [ 16, 18 ], "chance": 85 },
-        { "item": "home_hw", "x": [ 21, 23 ], "y": [ 20, 20 ], "chance": 85 },
-        { "item": "home_hw", "x": [ 22, 22 ], "y": [ 21, 21 ], "chance": 80 },
-        { "item": "cannedfood", "x": [ 9, 9 ], "y": [ 10, 16 ], "chance": 90 },
-        { "item": "cannedfood", "x": [ 14, 16 ], "y": [ 8, 8 ], "chance": 90 },
-        { "item": "pasta", "x": [ 8, 10 ], "y": [ 19, 19 ], "chance": 90 },
-        { "item": "camping", "x": [ 8, 10 ], "y": [ 13, 13 ], "chance": 75 },
-        { "item": "camping", "x": [ 8, 9 ], "y": [ 17, 18 ], "chance": 75 },
-        { "item": "electronics", "x": [ 23, 23 ], "y": [ 16, 18 ], "chance": 75 },
-        { "item": "home_hw", "x": 27, "y": [ 17, 19 ], "chance": 75 },
-        { "item": "electronics", "x": [ 25, 26 ], "y": [ 19, 19 ], "chance": 75 }
+      "place_loot": [
+        { "group": "cannedfood", "x": 12, "y": [ 8, 10 ], "chance": 80, "repeat": 5 },
+        { "group": "pasta", "x": 12, "y": [ 16, 18 ], "chance": 80, "repeat": 5 },
+        { "group": "stash_food", "x": [ 8, 10 ], "y": 19, "chance": 80, "repeat": 5 },
+        { "group": "tools_common", "x": 9, "y": [ 14, 16 ], "chance": 70, "repeat": 6 },
+        { "group": "tools_tailor", "x": 9, "y": [ 10, 11 ], "chance": 70, "repeat": 4 },
+        { "group": "ammo_reloaded", "x": 23, "y": [ 16, 18 ], "chance": 50, "repeat": 8 },
+        { "group": "tools_gunsmith", "x": [ 25, 26 ], "y": 19, "chance": 60, "repeat": 6 },
+        { "group": "ammo_parts", "x": 27, "y": [ 17, 19 ], "chance": 60, "repeat": 6 },
+        { "group": "ammo_casings", "x": 27, "y": [ 17, 19 ], "chance": 50, "repeat": 4 }
       ],
       "place_npcs": [
         { "class": "bandit", "x": 15, "y": 13 },
@@ -322,7 +320,7 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [
-      [ "breach_finale_12", "breach_finale_13" ],
+      [ "breach_finale_12", "breach_finale_13" ]
     ],
     "weight": 100,
     "object": {
@@ -332,14 +330,14 @@
         ",,P,,,,,,P,,|bbs|,,,,+sd|,PP,,,,,,,,,,,#W#,,,P,,",
         ",,P,,,,,,P,,|sss+,,,,||||,,P,,,,#####,,W^W,,,P,,",
         ",,P,,,,,,P,,|dss|,,,,,,,,,,P,,P##rrr##P#W#,,,P,,",
-        ",,P,,,,,,P,,|||||,,,,|||||,,,,,#.....#,P,,,,,P,,",
-        ",,P,,,,,,P,,,,,,,,,,,|bsd|,,,,,#..A..#,P,,,,,P,,",
-        ",,P,,,,,,P,||||,,,,,,|bss|,,,,,#..f..#,P,,,,,P,,",
-        ",,PP,,,,,P,|bb|,,,,,,|sss|,,,,,+....r#,P,,,,PP,,",
-        ",,,P,,,,,P,|ds+,,,,,,||+||,,,,,+....r#,P,,,,P,,,",
-        ",,,P,,,,,P,||||,,,,,,,,,,,,,,,,#..C..#,P,,,,P,,,",
-        ",,,P,,,,,P,,,,,,,,,,,,,,,,,,,,,#..k..#,P,,,,P,,,",
-        ",,,P,,,,,P,,||||,,,,,,,,,,,,,,,#.....#,P,,,,P,,,",
+        ",,P,,,,,,P,,|||||,,,,|||||,,,,,#_____#,P,,,,,P,,",
+        ",,P,,,,,,P,,,,,,,,,,,|bsd|,,,,,#__A__#,P,,,,,P,,",
+        ",,P,,,,,,P,||||,,,,,,|bss|,,,,,#__f__#,P,,,,,P,,",
+        ",,PP,,,,,P,|bb|,,,,,,|sss|,,,,,+____r#,P,,,,PP,,",
+        ",,,P,,,,,P,|ds+,,,,,,||+||,,,,,+____r#,P,,,,P,,,",
+        ",,,P,,,,,P,||||,,,,,,,,,,,,,,,,#__C__#,P,,,,P,,,",
+        ",,,P,,,,,P,,,,,,,,,,,,,,,,,,,,,#__k__#,P,,,,P,,,",
+        ",,,P,,,,,P,,||||,,,,,,,,,,,,,,,#_____#,P,,,,P,,,",
         ",,,P,,,,,P,,|ds+,,mmmmmmmmmmm,,##rrr##,P,,,,P,,,",
         ",,,P,,,,,P,,|bb|,,mmmmmmmmmmm,,,#####,,P,,,,P,,,",
         ",,,P,,,,,P,,||||,,,,,,,,,,,,,,,,,,,,,,,P,,,,P,,,",
@@ -352,28 +350,27 @@
         ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
         ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
       ],
-      "set": [
-        { "point": "trap", "id": "tr_landmine", "x": [ 4, 7 ], "y": [ 0, 17 ], "repeat": [ 1, 4 ] },
-        { "point": "trap", "id": "tr_landmine", "x": [ 11, 21 ], "y": [ 18, 19 ], "repeat": [ 1, 4 ] },
-        { "point": "trap", "id": "tr_landmine", "x": [ 40, 43 ], "y": [ 5, 17 ], "repeat": [ 1, 4 ] },
-        { "point": "trap", "id": "tr_landmine", "x": [ 26, 37 ], "y": [ 18, 19 ], "repeat": [ 1, 4 ] }
+      "palettes": [ "breach", "breach_camp" ],
+      "place_traps": [
+        { "trap": "tr_landmine", "x": [ 4, 7 ], "y": [ 0, 17 ], "repeat": [ 1, 4 ] },
+        { "trap": "tr_landmine", "x": [ 11, 21 ], "y": [ 18, 19 ], "repeat": [ 1, 4 ] },
+        { "trap": "tr_landmine", "x": [ 40, 43 ], "y": [ 5, 17 ], "repeat": [ 1, 4 ] },
+        { "trap": "tr_landmine", "x": [ 26, 37 ], "y": [ 18, 19 ], "repeat": [ 1, 4 ] }
       ],
-      "place_items": [
-        { "item": "mechanics", "x": [ 32, 36 ], "y": [ 13, 13 ], "chance": 65 },
-        { "item": "mechanics", "x": [ 36, 36 ], "y": [ 4, 5 ], "chance": 65 },
-        { "item": "mechanics", "x": [ 36, 36 ], "y": [ 8, 9 ], "chance": 65 },
-        { "item": "mechanics", "x": [ 32, 33 ], "y": [ 4, 4 ], "chance": 65 }
+      "place_loot": [
+        { "group": "tools_mechanic", "x": [ 33, 35 ], "y": 4, "chance": 65, "repeat": 3 },
+        { "group": "stash_wood", "x": 36, "y": [ 8, 9 ], "chance": 65, "repeat": 4 },
+        { "group": "wreckage", "x": [ 33, 35 ], "y": 13, "chance": 65, "repeat": 5 },
+        { "group": "tools_blacksmith", "x": 34, "y": 10, "chance": 65, "repeat": 3 }
       ],
       "place_npcs": [
         { "class": "bandit", "x": 15, "y": 4 },
         { "class": "bandit", "x": 16, "y": 8 },
         { "class": "bandit", "x": 14, "y": 14 },
-
-        { "class": "thug", "x": 1, "y": 17 },
-        { "class": "bandit", "x": 4, "y": 17 },
-        { "class": "thug", "x": 12, "y": 6 }
+        { "class": "thug", "x": 30, "y": 6 },
+        { "class": "bandit", "x": 30, "y": 11 },
+        { "class": "thug", "x": 39, "y": 1 }
       ]
     }
-  },
-
+  }
 ]
