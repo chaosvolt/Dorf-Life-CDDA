@@ -375,7 +375,7 @@
   },
   {
     "type": "mapgen",
-    "//": "Painfully obvious Doom reference, plus or minus a lack of proper demons.  Might rig the spawns so that PK can inject some in.",
+    "//": "Layout is based off of Phobos Anomaly from Doom, with concessions to available space, and a slight DoomRL twist.",
     "om_terrain": [
       [ "breach_finale_14", "breach_finale_15", "breach_finale_16", "breach_finale_17" ],
       [ "breach_finale_18", "breach_finale_19", "breach_finale_20", "breach_finale_21" ],
@@ -399,12 +399,12 @@
         "##!??...........?!##############MmmmmM---################--tt--###############!?...........??!##",
         "##!??...........?!############MMMmmmmMMM################--tttt--#############!?,...........??!##",
         "##!??...........?!##MMMMMMMM##MummmmmmuM##MMMMMMMM#####--tttttt--###########!?,,,..........??!##",
-        "##!??...........?!##M______M#MMmmmmmmmmMM#M______MMMMM--ttt~~ttt------!!!!!!?,,,,..........??!##",
-        "##!??...........?!##M______MMMmmmmmmmmmmMMM______MMEE6-ttt~~~~ttt-utt-??????,,,,,..........??!##",
+        "##!??...........?!##M______M#MMmmmmmmmmMM#M______MMMMMM-ttt~~ttt------!!!!!!?,,,,..........??!##",
+        "##!??...........?!##M______MMMmmmmmmmmmmMMM______MMEE6Mttt~~~~ttt-utt-??????,,,,,..........??!##",
         "##!??...........?!##M________+mmmmmmmmmm+________MMEEEmtt~~~~~~tt+tttt,,,,,,,,,,,..........??!##",
         "##!??...........?!##M________+mmmmmmmmmm+________MMEEEmtt~~~~~~tt+tttt,,,,,,,,,,,..........??!##",
-        "##!??...........?!##M______MMMmmmmmmmmmmMMM______MMEEE-ttt~~~~ttt-utt-??????,,,,,..........??!##",
-        "##!??...........?!##M______M#MMmmmmmmmmMM#M______MMMMM--ttt~~ttt------!!!!!!?,,,,..........??!##",
+        "##!??...........?!##M______MMMmmmmmmmmmmMMM______MMEEEMttt~~~~ttt-utt-??????,,,,,..........??!##",
+        "##!??...........?!##M______M#MMmmmmmmmmMM#M______MMMMMM-ttt~~ttt------!!!!!!?,,,,..........??!##",
         "##!??...........?!##MMMMMMMM##MummmmmmuM##MMMMMMMM#####--tttttt--###########!?,,,..........??!##",
         "##!??...........?!############MMMmmmmMMM################--tttt--#############!?,...........??!##",
         "##!!??..........?!##############MMmmMM###################------###############!?..........??!!##",
@@ -475,7 +475,13 @@
         "t": "t_strconc_floor",
         "u": "t_utility_light",
         "/": "t_strconc_floor"
-      }
+      },
+      "place_loot": [
+        { "item": "royal_jelly", "x": 39, "y": 10 },
+        { "group": "stash_wood", "x": 36, "y": [ 8, 9 ], "chance": 65, "repeat": 4 },
+        { "group": "wreckage", "x": [ 33, 35 ], "y": 13, "chance": 65, "repeat": 5 },
+        { "group": "tools_blacksmith", "x": 34, "y": 10, "chance": 65, "repeat": 3 }
+      ],
     }
   }
 ]
