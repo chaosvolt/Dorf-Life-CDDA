@@ -1615,5 +1615,69 @@
       ],
       "terrain": { "+": "t_door_c" }
     }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_finale_doot_rads",
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "set": [ { "square": "radiation", "amount": [ 20, 40 ], "x": 0, "y": 0, "x2": 3, "y2": 3 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_single_demon",
+    "//": "Mi-go in vanilla, potentially replaced by demon if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_monster": [ { "monster": "mon_mi_go", "x": 0, "y": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_multiple_demons",
+    "//": "Mi-gos in vanilla, potentially replaced by demons if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "place_monster": [ { "monster": "mon_mi_go", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 6, 12 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_pair_spectres",
+    "//": "Shady zombies in vanilla, potentially replaced by spectres if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "place_monster": [ { "monster": "mon_zombie_shady", "x": [ 0, 1 ], "y": [ 0, 1 ], "repeat": [ 2, 3 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_baron",
+    "//": "Shocker brute in vanilla, potentially replaced by baron of hell if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_monster": [ { "monster": "mon_zombie_brute_shocker", "x": 0, "y": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_imp_surprise",
+    "//": "Krecks in vanilla, potentially replaced by imps if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "place_monster": [ { "monster": "mon_kreck", "x": [ 0, 1 ], "y": [ 0, 1 ], "repeat": [ 2, 3 ] } ]
+    }
   }
 ]
