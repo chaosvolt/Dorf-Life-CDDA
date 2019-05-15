@@ -268,5 +268,99 @@
       "ter_set": "t_cave_moss",
       "items": [ { "item": "stick", "count": [ 0, 2 ] }, { "item": "splinter", "count": [ 1, 4 ] } ]
     }
+  },
+  {
+    "type": "terrain",
+    "id": "t_breach_stone_fake",
+    "name": "smoothed rock?",
+    "description": "A block of stone that's been smoothed and shaped, commonly granite or marble.  Something seems suspicious here...",
+    "symbol": "LINE_OXOX",
+    "looks_like": "t_rock_smooth",
+    "color": "white",
+    "move_cost": 0,
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "AUTO_WALL_SYMBOL", "CONNECT_TO_WALL", "MINEABLE", "BLOCK_WIND" ],
+    "roof": "t_rock_floor",
+    "connects_to": "WALL",
+    "bash": {
+      "str_min": 120,
+      "str_max": 400,
+      "sound": "crash!",
+      "sound_fail": "a hollow-sounding whump!",
+      "ter_set": "t_rock_floor",
+      "items": [ { "item": "rock", "count": [ 6, 12 ] }, { "item": "material_rocksalt", "count": [ 0, 1 ], "prob": 10 } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_breach_stone_fake_lowered",
+    "name": "rock floor?",
+    "description": "A relatively flat area of rock and stone.  Wasn't there a wall here previously?",
+    "looks_like": "t_rock_floor",
+    "symbol": ".",
+    "color": "light_gray",
+    "move_cost": 2,
+    "roof": "t_flat_roof",
+    "flags": [ "TRANSPARENT", "INDOORS", "COLLAPSES", "SUPPORTS_ROOF", "FLAT", "ROAD" ],
+    "bash": {
+      "str_min": 120,
+      "str_max": 400,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "items": [ { "item": "rock", "count": [ 6, 12 ] }, { "item": "material_rocksalt", "count": [ 0, 1 ], "prob": 10 } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_breach_lever",
+    "name": "stone lever",
+    "description": "A heavy lever carved out of and set into the surrounding natural stone.  Wonder what it does...",
+    "looks_like": "t_gates_control_concrete",
+    "symbol": "6",
+    "color": "cyan_red",
+    "move_cost": 0,
+    "flags": [ "NOITEM", "INDOORS", "PERMEABLE" ],
+    "examine_action": "controls_gate"
+  },
+  {
+    "type": "terrain",
+    "id": "t_breach_concrete_fake_c",
+    "name": "reinforced concrete wall?",
+    "description": "An extremely resilient wall, filled with concrete and rebar.  Something seems suspicious here...",
+    "looks_like": "t_strconc_wall",
+    "symbol": "LINE_OXOX",
+    "color": "light_gray",
+    "move_cost": 0,
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "DOOR", "WALL", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "open": "t_breach_concrete_fake_o",
+    "connects_to": "WALL",
+    "bash": {
+      "str_min": 120,
+      "str_max": 460,
+      "sound": "scrrrash!",
+      "sound_fail": "a hollow-sounding whump!",
+      "ter_set": "t_reb_cage",
+      "items": [ { "item": "rock", "count": [ 10, 22 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_breach_concrete_fake_o",
+    "name": "reinforced concrete floor?",
+    "description": "Extremely resilient floor made from carefully placed rebar and poured concrete.  Turns out it was a secret door all along.",
+    "looks_like": "t_strconc_floor",
+    "symbol": ".",
+    "color": "cyan",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
+    "close": "t_breach_concrete_fake_c",
+    "bash": {
+      "str_min": 120,
+      "str_max": 460,
+      "sound": "scrrrash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_reb_cage",
+      "items": [ { "item": "rock", "count": [ 10, 22 ] } ]
+    }
   }
 ]

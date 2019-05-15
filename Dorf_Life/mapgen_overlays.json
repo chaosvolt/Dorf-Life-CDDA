@@ -226,6 +226,124 @@
     "mapping": { "%": { "item": [ { "item": "rock", "count": [ 1, 3 ] } ] } }
   },
   {
+    "type": "palette",
+    "id": "breach_lab",
+    "terrain": {
+      "_": "t_thconc_floor",
+      "|": "t_concrete_wall",
+      "+": "t_door_metal_c",
+      "=": "t_door_metal_pickable",
+      "[": "t_thconc_floor",
+      "^": "t_centrifuge",
+      "1": "t_thconc_floor",
+      "2": "t_thconc_floor",
+      "3": "t_machinery_light",
+      "4": "t_machinery_heavy",
+      "6": "t_console_broken",
+      "A": "t_vat",
+      "B": "t_thconc_floor",
+      "C": "t_thconc_floor",
+      "D": "t_thconc_floor",
+      "F": "t_thconc_floor",
+      "G": "t_generator_broken",
+      "S": "t_thconc_floor",
+      "T": "t_thconc_floor",
+      "V": "t_thconc_floor_olight",
+      "W": "t_reinforced_glass",
+      "X": "t_door_metal_locked",
+      "Y": "t_card_science",
+      "b": "t_thconc_floor",
+      "c": "t_thconc_floor",
+      "d": "t_thconc_floor",
+      "e": "t_thconc_floor",
+      "f": "t_chainfence",
+      "g": "t_chaingate_l",
+      "l": "t_thconc_floor",
+      "m": [ "t_cave_moss", "t_cave_moss", "t_shrub_helmet_plump", "t_shrub_pod_sweet", "t_shrub_wheat_cave", "t_shrub_tails_pig", "t_shrub_bush_quarry" ],
+      "n": "t_thconc_floor",
+      "r": "t_thconc_floor",
+      "s": "t_thconc_floor",
+      "t": "t_thconc_floor",
+      "u": "t_thconc_floor_olight",
+      "v": "t_thconc_floor",
+      "w": "t_reinforced_door_glass_lab_c"
+    },
+    "furniture": {
+      "[": "f_bookcase",
+      "1": "f_autodoc",
+      "2": "f_autodoc_couch",
+      "B": "f_bed",
+      "C": "f_counter",
+      "D": "f_dresser",
+      "F": "f_fridge",
+      "S": "f_shower",
+      "T": "f_toilet",
+      "V": "f_vending_o",
+      "b": "f_bench",
+      "c": "f_chair",
+      "d": "f_desk",
+      "e": "f_table",
+      "l": "f_locker",
+      "n": "f_oven",
+      "r": "f_rack",
+      "s": "f_sink",
+      "t": "f_trashcan",
+      "v": "f_vending_o"
+    },
+    "toilets": { "T": {  } },
+    "mapping": { "B": { "items": [ { "item": "bed", "chance": 80 } ] }, "D": { "items": [ { "item": "dresser", "chance": 90 } ] }, "t": { "items": [ { "item": "trash", "chance": 60 } ] }, "n": { "items": [ { "item": "oven", "chance": 75 } ] }, "A": { "items": [ { "item": "cloning_vat", "chance": 80 } ] } }
+  },
+  {
+    "type": "palette",
+    "id": "breach_camp",
+    "terrain": {
+      "|": "t_wall_log",
+      "+": "t_door_c",
+      "[": "t_rock_floor",
+      "^": "t_utility_light",
+      "A": "t_rock_floor",
+      "B": "t_rock_floor",
+      "C": "t_rock_floor",
+      "D": "t_rock_floor",
+      "F": "t_rock_floor",
+      "K": "t_rock_floor",
+      "P": "t_rock_wall",
+      "W": "t_reinforced_glass",
+      "b": "t_floor_primitive",
+      "c": "t_rock_floor",
+      "d": "t_floor_primitive",
+      "e": "t_rock_floor",
+      "f": "t_rock_floor",
+      "k": "t_rock_floor",
+      "l": "t_rock_floor",
+      "m": [ "t_cave_moss", "t_cave_moss", "t_shrub_helmet_plump", "t_shrub_pod_sweet", "t_shrub_wheat_cave", "t_shrub_tails_pig", "t_shrub_bush_quarry" ],
+      "r": "t_rock_floor",
+      "s": "t_floor_primitive"
+    },
+    "furniture": {
+      "A": "f_anvil",
+      "B": "f_bed",
+      "C": "f_counter",
+      "D": "f_dresser",
+      "F": "f_fireplace",
+      "K": "f_wood_keg",
+      "b": "f_makeshift_bed",
+      "c": "f_chair",
+      "d": "f_dresser",
+      "e": "f_table",
+      "f": "f_forge",
+      "k": "f_kiln_empty",
+      "l": "f_locker",
+      "r": "f_rack"
+    },
+    "mapping": {
+      "B": { "items": [ { "item": "bed", "chance": 80 } ] },
+      "D": { "items": [ { "item": "dresser", "chance": 90 } ] },
+      "b": { "items": [ { "item": "bed", "chance": 80 } ] },
+      "v": { "items": [ { "item": "dresser", "chance": 90 } ] }
+    }
+  },
+  {
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "breach_chunk_pillar",
@@ -1484,6 +1602,82 @@
     "object": {
       "mapgensize": [ 5, 5 ],
       "place_monster": [ { "monster": "mon_vortex", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 1, 3 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_finale_1_door",
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "rows": [
+        "+"
+      ],
+      "terrain": { "+": "t_door_c" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_finale_doot_rads",
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "set": [ { "square": "radiation", "amount": [ 20, 40 ], "x": 0, "y": 0, "x2": 3, "y2": 3 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_single_demon",
+    "//": "Mi-go in vanilla, potentially replaced by demon if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_monster": [ { "monster": "mon_mi_go", "x": 0, "y": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_multiple_demons",
+    "//": "Mi-gos in vanilla, potentially replaced by demons if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "place_monster": [ { "monster": "mon_mi_go", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 6, 12 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_pair_spectres",
+    "//": "Shady zombies in vanilla, potentially replaced by spectres if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "place_monster": [ { "monster": "mon_zombie_shady", "x": [ 0, 1 ], "y": [ 0, 1 ], "repeat": [ 2, 3 ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_baron",
+    "//": "Shocker brute in vanilla, potentially replaced by baron of hell if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "place_monster": [ { "monster": "mon_zombie_brute_shocker", "x": 0, "y": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "breach_spawn_doot_imp_surprise",
+    "//": "Krecks in vanilla, potentially replaced by imps if combined with PK.",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "place_monster": [ { "monster": "mon_kreck", "x": [ 0, 1 ], "y": [ 0, 1 ], "repeat": [ 2, 3 ] } ]
     }
   }
 ]
