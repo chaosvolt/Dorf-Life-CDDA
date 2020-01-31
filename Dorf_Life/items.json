@@ -70,7 +70,7 @@
     "id": "caveyot_tails_pig",
     "name": "spiral stalk",
     "weight": 120,
-    "color": "light_grey",
+    "color": "light_gray",
     "comestible_type": "FOOD",
     "symbol": ",",
     "description": "A stalk of plantlike growth that naturally curls in on itself in a spiral, covered with short, thin leaves.  Every part of the \"plant\" is tough and stringy.",
