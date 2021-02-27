@@ -1,6 +1,8 @@
-# Dorf Life, a Cataclysm: Dark Days Ahead mod
+# Dorf Life, a mod for Cataclysm: Dark Days Ahead and Cataclysm: Bright Nights
 
 This mod focuses on adding caverns that randomly breach the depths of subway tunnels (if only sewers were an option, but they won't mesh up cleanly), expanding the underground with areas full of various flora, fauna, and strange encounters.
+
+If you are using Dark Days Ahead, place the included Dorf_Life folder in your data/mods folder. If you are using the Bright Nights fork, use the Dorf_Life_BN folder instead. In either case it is recommended that, if updating the mod, to delete the older version of the folder rather than just dumping the new one onto the old one.
 
 ## Features
 
