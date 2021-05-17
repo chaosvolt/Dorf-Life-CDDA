@@ -1,7 +1,7 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [ "ChestHole32", "MShock32Modded", "MshockXottoplus" ],
+    "compatibility": [ "ChestHole32", "MShock32Modded", "MshockXottoplus", "UltimateCataclysm" ],
     "tiles-new": [
       {
         "file": "mod_tileset.png",
