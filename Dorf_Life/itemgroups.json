@@ -84,7 +84,7 @@
     "magazine": 100,
     "ammo": 100,
     "entries": [
-      { "item": "small_homemade_grenade", "prob": 33, "count": [ 2, 6 ] },
+      { "item": "bootleg_grenade", "prob": 33, "count": [ 2, 6 ] },
       { "item": "rope_30", "prob": 33, "count": [ 1, 4 ] },
       {
         "distribution": [
