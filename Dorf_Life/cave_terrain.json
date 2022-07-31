@@ -1,19 +1,6 @@
 [
   {
     "type": "terrain",
-    "id": "t_cave_moss",
-    "name": "cave moss",
-    "description": "A sprawling bed of strange blueish moss, growing over a flat stone surface.  Digging it up will expose the rock enough to mine deeper, if need be.",
-    "looks_like": "t_grass",
-    "symbol": ".",
-    "color": "cyan",
-    "move_cost": 2,
-    "roof": "t_flat_roof",
-    "flags": [ "TRANSPARENT", "INDOORS", "FLAT" ],
-    "bash": { "ter_set": "t_null", "str_min": 75, "str_max": 400, "str_min_supported": 100, "bash_below": true }
-  },
-  {
-    "type": "terrain",
     "id": "t_shrub_helmet_plump",
     "name": "patch of dark truffles",
     "description": "A patch of squat, dull purple mushrooms.",
@@ -35,7 +22,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] } ]
     }
   },
@@ -56,7 +43,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] } ]
     }
   },
@@ -83,7 +70,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] } ]
     }
   },
@@ -104,7 +91,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "withered", "prob": 50, "count": [ 1, 2 ] } ]
     }
   },
@@ -131,7 +118,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "straw_pile", "count": [ 1, 2 ] } ]
     }
   },
@@ -152,7 +139,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "straw_pile", "count": [ 1, 2 ] } ]
     }
   },
@@ -179,7 +166,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "plant_fibre", "count": [ 1, 4 ] } ]
     }
   },
@@ -200,7 +187,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "plant_fibre", "count": [ 1, 4 ] } ]
     }
   },
@@ -227,7 +214,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "stick", "count": [ 0, 2 ] }, { "item": "splinter", "count": [ 1, 4 ] } ]
     }
   },
@@ -248,7 +235,7 @@
       "str_max": 60,
       "sound": "crunch.",
       "sound_fail": "brush.",
-      "ter_set": "t_cave_moss",
+      "ter_set": "t_moss_underground",
       "items": [ { "item": "stick", "count": [ 0, 2 ] }, { "item": "splinter", "count": [ 1, 4 ] } ]
     }
   },

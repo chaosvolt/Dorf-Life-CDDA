@@ -7,23 +7,23 @@
       ".": [
         [ "t_rock", 5 ],
         [ "t_rock_floor", 45 ],
-        [ "t_cave_moss", 145 ],
+        [ "t_moss_underground", 145 ],
         [ "t_shrub_helmet_plump", 1 ],
         [ "t_shrub_pod_sweet", 1 ],
         [ "t_shrub_wheat_cave", 1 ],
         [ "t_shrub_tails_pig", 1 ],
         [ "t_shrub_bush_quarry", 1 ]
       ],
-      ",": [ "t_rock_floor", "t_cave_moss", "t_cave_moss" ],
+      ",": [ "t_rock_floor", "t_moss_underground", "t_moss_underground" ],
       "%": "t_rock_floor",
       "#": "t_rock",
       ":": [ "t_rock_floor", "t_rock" ],
       ";": [ "t_rock_floor", "t_rock_floor", "t_rock_floor", "t_rock" ],
-      "!": [ "t_rock_floor", "t_cave_moss", "t_rock", "t_rock" ],
-      "?": [ "t_rock_floor", "t_cave_moss", "t_cave_moss", "t_rock" ],
+      "!": [ "t_rock_floor", "t_moss_underground", "t_rock", "t_rock" ],
+      "?": [ "t_rock_floor", "t_moss_underground", "t_moss_underground", "t_rock" ],
       ">": "t_slope_down",
       "<": "t_slope_up",
-      "o": [ [ "t_rock_floor", 2 ], [ "t_cave_moss", 1 ] ],
+      "o": [ [ "t_rock_floor", 2 ], [ "t_moss_underground", 1 ] ],
       "O": "t_rock_floor"
     },
     "furniture": {
@@ -68,8 +68,8 @@
       "g": "t_chaingate_l",
       "l": "t_thconc_floor",
       "m": [
-        "t_cave_moss",
-        "t_cave_moss",
+        "t_moss_underground",
+        "t_moss_underground",
         "t_shrub_helmet_plump",
         "t_shrub_pod_sweet",
         "t_shrub_wheat_cave",
@@ -139,8 +139,8 @@
       "k": "t_rock_floor",
       "l": "t_rock_floor",
       "m": [
-        "t_cave_moss",
-        "t_cave_moss",
+        "t_moss_underground",
+        "t_moss_underground",
         "t_shrub_helmet_plump",
         "t_shrub_pod_sweet",
         "t_shrub_wheat_cave",
@@ -440,7 +440,7 @@
         "   ,~~~~~~, "
       ],
       "palettes": [ "breach" ],
-      "terrain": { "=": "t_water_dp", "/": [ "t_water_sh", "t_water_dp" ], "-": "t_water_sh", "~": [ "t_cave_moss", "t_water_sh" ] },
+      "terrain": { "=": "t_water_dp", "/": [ "t_water_sh", "t_water_dp" ], "-": "t_water_sh", "~": [ "t_moss_underground", "t_water_sh" ] },
       "place_nested": [ { "chunks": [ [ "breach_spawn_water", 100 ] ], "x": 4, "y": 4 } ]
     }
   },
@@ -750,7 +750,7 @@
         "  ,,,,,,,,  "
       ],
       "palettes": [ "breach" ],
-      "terrain": { "-": "t_cave_moss", "~": "t_cave_moss", "+": "t_cave_moss", "b": "t_rock_floor" },
+      "terrain": { "-": "t_moss_underground", "~": "t_moss_underground", "+": "t_moss_underground", "b": "t_rock_floor" },
       "furniture": { "-": "f_canvas_wall", "~": "f_groundsheet", "+": "f_canvas_door", "b": "f_brazier" },
       "place_items": [ { "item": "caveyot_survivors", "x": [ 4, 7 ], "y": [ 2, 9 ], "chance": 90, "repeat": 5 } ],
       "place_monster": [ { "monster": "mon_zombie_survivor", "x": [ 0, 11 ], "y": [ 0, 11 ], "repeat": [ 2, 5 ] } ]
@@ -781,7 +781,7 @@
       "palettes": [ "breach" ],
       "terrain": {
         "|": [ "t_wall_log", "t_wall_log_chipped" ],
-        "/": [ "t_wall_log", "t_wall_log_chipped", "t_wall_log_broken", "t_cave_moss" ],
+        "/": [ "t_wall_log", "t_wall_log_chipped", "t_wall_log_broken", "t_moss_underground" ],
         "+": [ "t_door_frame", "t_door_b", "t_door_c" ],
         "^": "t_rock_floor"
       },
@@ -840,7 +840,7 @@
       "palettes": [ "breach" ],
       "terrain": {
         "|": [ "t_wall_log", "t_wall_log_chipped" ],
-        "/": [ "t_wall_log", "t_wall_log_chipped", "t_wall_log_broken", "t_cave_moss" ],
+        "/": [ "t_wall_log", "t_wall_log_chipped", "t_wall_log_broken", "t_moss_underground" ],
         "+": [ "t_door_frame", "t_door_b", "t_door_c" ]
       },
       "place_items": [ { "item": "cavern_ruins", "x": [ 8, 9 ], "y": [ 7, 10 ], "chance": 50, "repeat": 10 } ],
@@ -871,7 +871,7 @@
       "palettes": [ "breach" ],
       "terrain": {
         "|": [ "t_wall_log", "t_wall_log_chipped" ],
-        "/": [ "t_wall_log", "t_wall_log_chipped", "t_wall_log_broken", "t_cave_moss" ],
+        "/": [ "t_wall_log", "t_wall_log_chipped", "t_wall_log_broken", "t_moss_underground" ],
         "+": [ "t_door_frame", "t_door_b", "t_door_c" ]
       },
       "place_items": [ { "item": "cavern_ruins", "x": [ 5, 6 ], "y": [ 4, 7 ], "chance": 50, "repeat": 10 } ],
@@ -1000,7 +1000,7 @@
           "t_rock_floor",
           "t_rock_floor",
           "t_rock_floor",
-          "t_cave_moss",
+          "t_moss_underground",
           "t_little_column",
           "t_column"
         ]
