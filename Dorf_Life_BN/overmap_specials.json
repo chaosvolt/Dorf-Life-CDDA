@@ -12,11 +12,8 @@
       { "point": [ 0, 2, -1 ], "overmap": "breach_corner_west" },
       { "point": [ 1, 2, -1 ], "overmap": "breach_edge_south" },
       { "point": [ 2, 2, -1 ], "overmap": "breach_corner_south" }
-
     ],
-    "connections": [
-      { "point": [ 1, -1, -1 ], "terrain": "sewer", "connection": "sewer_tunnel", "from": [ 1, 0, -1 ] }
-    ],
+    "connections": [ { "point": [ 1, -1, -1 ], "connection": "sewer_tunnel", "from": [ 1, 0, -1 ] } ],
     "locations": [ "land" ],
     "city_distance": [ -1, 4 ],
     "city_sizes": [ 4, 20 ],
@@ -40,9 +37,7 @@
       { "point": [ 2, 2, -1 ], "overmap": "breach_edge_south" },
       { "point": [ 3, 2, -1 ], "overmap": "breach_corner_south" }
     ],
-    "connections": [
-      { "point": [ 1, -1, -1 ], "terrain": "sewer", "connection": "sewer_tunnel", "from": [ 1, 0, -1 ] }
-    ],
+    "connections": [ { "point": [ 1, -1, -1 ], "connection": "sewer_tunnel", "from": [ 1, 0, -1 ] } ],
     "locations": [ "land" ],
     "city_distance": [ -1, 4 ],
     "city_sizes": [ 4, 20 ],
@@ -70,9 +65,7 @@
       { "point": [ 2, 3, -1 ], "overmap": "breach_edge_south" },
       { "point": [ 3, 3, -1 ], "overmap": "breach_corner_south" }
     ],
-    "connections": [
-      { "point": [ 1, -1, -1 ], "terrain": "sewer", "connection": "sewer_tunnel", "from": [ 1, 0, -1 ] }
-    ],
+    "connections": [ { "point": [ 1, -1, -1 ], "connection": "sewer_tunnel", "from": [ 1, 0, -1 ] } ],
     "locations": [ "land" ],
     "city_distance": [ -1, 4 ],
     "city_sizes": [ 4, 20 ],
@@ -132,9 +125,9 @@
       { "point": [ 2, 2, -7 ], "overmap": "breach_corner_south" }
     ],
     "connections": [
-      { "point": [ 0, 1, -2 ], "terrain": "subway" },
-      { "point": [ 1, 1, -2 ], "terrain": "subway" },
-      { "point": [ 2, 1, -2 ], "terrain": "subway" }
+      { "point": [ 0, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 1, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 2, 1, -2 ], "connection": "subway_tunnel" }
     ],
     "locations": [ "land" ],
     "city_distance": [ -1, 4 ],
@@ -210,9 +203,9 @@
       { "point": [ 3, 2, -7 ], "overmap": "breach_corner_south" }
     ],
     "connections": [
-      { "point": [ 0, 1, -2 ], "terrain": "subway" },
-      { "point": [ 1, 1, -2 ], "terrain": "subway" },
-      { "point": [ 2, 1, -2 ], "terrain": "subway" }
+      { "point": [ 0, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 1, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 2, 1, -2 ], "connection": "subway_tunnel" }
     ],
     "locations": [ "land" ],
     "city_distance": [ -1, 4 ],
@@ -308,9 +301,9 @@
       { "point": [ 3, 3, -7 ], "overmap": "breach_corner_south" }
     ],
     "connections": [
-      { "point": [ 0, 1, -2 ], "terrain": "subway" },
-      { "point": [ 1, 1, -2 ], "terrain": "subway" },
-      { "point": [ 2, 1, -2 ], "terrain": "subway" }
+      { "point": [ 0, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 1, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 2, 1, -2 ], "connection": "subway_tunnel" }
     ],
     "locations": [ "land" ],
     "city_distance": [ -1, 4 ],
@@ -426,9 +419,9 @@
       { "point": [ 4, 3, -7 ], "overmap": "breach_corner_south" }
     ],
     "connections": [
-      { "point": [ 1, 1, -2 ], "terrain": "subway" },
-      { "point": [ 2, 1, -2 ], "terrain": "subway" },
-      { "point": [ 3, 1, -2 ], "terrain": "subway" }
+      { "point": [ 1, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 2, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 3, 1, -2 ], "connection": "subway_tunnel" }
     ],
     "locations": [ "land" ],
     "city_distance": [ -1, 4 ],
@@ -569,9 +562,9 @@
       { "point": [ 4, 4, -7 ], "overmap": "breach_corner_south" }
     ],
     "connections": [
-      { "point": [ 1, 1, -2 ], "terrain": "subway" },
-      { "point": [ 2, 1, -2 ], "terrain": "subway" },
-      { "point": [ 3, 1, -2 ], "terrain": "subway" }
+      { "point": [ 1, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 2, 1, -2 ], "connection": "subway_tunnel" },
+      { "point": [ 3, 1, -2 ], "connection": "subway_tunnel" }
     ],
     "locations": [ "land" ],
     "city_distance": [ -1, 4 ],
