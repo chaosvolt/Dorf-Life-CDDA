@@ -15,7 +15,7 @@
     "price": 100,
     "material": "mushroom",
     "volume": 1,
-    "flags": [ "EATEN_HOT", "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
+    "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "fun": -1
   },
   {
@@ -34,7 +34,7 @@
     "price": 200,
     "material": "mushroom",
     "volume": 1,
-    "flags": [ "EATEN_HOT", "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
+    "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "fun": -1
   },
   {
@@ -107,7 +107,7 @@
     "material": [ "mushroom", "nut" ],
     "volume": 1,
     "charges": 2,
-    "flags": [ "EATEN_HOT", "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
+    "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "fun": 2
   }
 ]
