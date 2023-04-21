@@ -1289,7 +1289,6 @@
             [ "breach_spawn_cougars", 25 ],
             [ "breach_spawn_mole", 25 ],
             [ "breach_spawn_chud", 100 ],
-            [ "breach_spawn_eye", 50 ],
             [ "breach_spawn_crawler", 50 ],
             [ "breach_spawn_sludge", 25 ],
             [ "breach_spawn_snakes", 100 ],
@@ -1427,15 +1426,6 @@
     "object": {
       "mapgensize": [ 5, 5 ],
       "place_monster": [ { "monster": "mon_chud", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 1, 4 ] } ]
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "breach_spawn_eye",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "place_monster": [ { "monster": "mon_one_eye", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 1, 3 ] } ]
     }
   },
   {
