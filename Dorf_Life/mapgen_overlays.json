@@ -1287,7 +1287,6 @@
             [ "breach_spawn_bats", 125 ],
             [ "breach_spawn_bears", 100 ],
             [ "breach_spawn_cougars", 25 ],
-            [ "breach_spawn_mole", 25 ],
             [ "breach_spawn_chud", 100 ],
             [ "breach_spawn_crawler", 50 ],
             [ "breach_spawn_sludge", 25 ],
@@ -1313,7 +1312,6 @@
         {
           "chunks": [
             [ "breach_spawn_lobster", 500 ],
-            [ "breach_spawn_blinky", 50 ],
             [ "breach_spawn_carp", 150 ],
             [ "breach_spawn_fish", 150 ],
             [ "breach_spawn_gators", 75 ],
@@ -1349,12 +1347,6 @@
       "mapgensize": [ 5, 5 ],
       "place_monster": [ { "monster": "mon_sewer_rat", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 1, 10 ] } ]
     }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "breach_spawn_mole",
-    "object": { "mapgensize": [ 5, 5 ], "place_monster": [ { "monster": "mon_nakedmolerat_giant", "x": [ 0, 4 ], "y": [ 0, 4 ] } ] }
   },
   {
     "type": "mapgen",
@@ -1456,15 +1448,6 @@
     "object": {
       "mapgensize": [ 5, 5 ],
       "place_monster": [ { "monster": "mon_fish_lobster", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 1, 7 ] } ]
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "breach_spawn_blinky",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "place_monster": [ { "monster": "mon_fish_blinky", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 1, 3 ] } ]
     }
   },
   {
