@@ -12,9 +12,9 @@
     "healthy": -1,
     "calories": 125,
     "description": "A mushroom vaguely resembling a black truffle, with a noticeable purple coloration instead.  It seems to be edible raw, albeit bittersweet, and might be tastier cooked.",
-    "price": 100,
+    "price": "1 USD",
     "material": "mushroom",
-    "volume": 1,
+    "volume": "250 ml",
     "flags": [ "EATEN_HOT", "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
     "fun": -1
   },
@@ -31,11 +31,10 @@
     "healthy": -1,
     "calories": 200,
     "description": "A mushroom vaguely resembling a black truffle, with a noticeable purple coloration instead.  Much better now that it's been cooked.",
-    "price": 200,
+    "price": "2 USD",
     "material": "mushroom",
-    "volume": 1,
-    "flags": [ "EATEN_HOT", "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
-    "fun": -1
+    "volume": "250 ml",
+    "flags": [ "EATEN_HOT", "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ]
   },
   {
     "type": "COMESTIBLE",
@@ -47,9 +46,9 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "description": "A bright red bulb resembling an onion, far more scarlet than the purple of any earthly red onion.  Though it gives off a sweet aroma, its layers are tough and difficult to peel, making it inedible as-is.",
-    "price": 150,
+    "price": "150 cent",
     "material": [ "mushroom", "wood" ],
-    "volume": 1
+    "volume": "250 ml"
   },
   {
     "type": "COMESTIBLE",
@@ -60,9 +59,9 @@
     "comestible_type": "FOOD",
     "symbol": ",",
     "description": "A long stalk covered with fluffy clumps of powdery growth, vaguely resembling cotton bolls.  The resemblance is merely visual, as it simply crumbles into powder if pulled apart.",
-    "price": 300,
+    "price": "300 cent",
     "material": [ "mushroom", "powder" ],
-    "volume": 1
+    "volume": "250 ml"
   },
   {
     "type": "COMESTIBLE",
@@ -73,9 +72,9 @@
     "comestible_type": "FOOD",
     "symbol": ",",
     "description": "A stalk of plantlike growth that naturally curls in on itself in a spiral, covered with short, thin leaves.  Every part of the \"plant\" is tough and stringy.",
-    "price": 400,
+    "price": "400 cent",
     "material": [ "mushroom", "powder" ],
-    "volume": 1
+    "volume": "250 ml"
   },
   {
     "type": "COMESTIBLE",
@@ -86,14 +85,13 @@
     "comestible_type": "FOOD",
     "symbol": "/",
     "description": "A woody, tangled branch covered in pods resembling overgrown pecans.  Some of the growths are smaller, softer, and greener in color, but the whole thing seems inedible and useless as-is.",
-    "price": 200,
-    "material": "wood",
-    "volume": 1
+    "price": "2 USD",
+    "volume": "250 ml"
   },
   {
     "type": "COMESTIBLE",
     "id": "caveyot_bush_quarry_cooked",
-    "name": { "str": "handful of roasted hardened bramble nuts", "str_pl": "handfuld of roasted hardened bramble nuts" },
+    "name": { "str": "handful of roasted hardened bramble nuts", "str_pl": "handfuls of roasted hardened bramble nuts" },
     "looks_like": "hickory_nut_roasted",
     "weight": "120 g",
     "color": "brown",
@@ -103,10 +101,9 @@
     "quench": -4,
     "calories": 200,
     "description": "A handful of pods stripped from a strange branch, roasted in their shells due to how rock-hard they were.  Doing so softened and split open the shells, leaving nuts that seem to have been fried in the pod's own oil.",
-    "price": 150,
+    "price": "150 cent",
     "material": [ "mushroom", "nut" ],
-    "volume": 1,
-    "charges": 2,
+    "volume": "125 ml",
     "flags": [ "EATEN_HOT", "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
     "fun": 2
   }
