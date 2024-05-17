@@ -1397,9 +1397,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "breach_spawn_gators",
+    "//": "ID retained, we can't have nice things in DDA",
     "object": {
       "mapgensize": [ 5, 5 ],
-      "place_monster": [ { "monster": "mon_gator", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 1, 3 ] } ]
+      "place_monster": [ { "monster": "mon_rattlesnake_big", "x": [ 0, 4 ], "y": [ 0, 4 ], "repeat": [ 1, 3 ] } ]
     }
   },
   {
