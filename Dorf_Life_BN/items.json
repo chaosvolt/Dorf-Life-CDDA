@@ -158,7 +158,7 @@
     "type": "COMESTIBLE",
     "name": { "str_sp": "hardened bramble spores" },
     "description": "Some hardened bramble spores.  You could probably \"plant\" this, but it would require tree trunks or dedicated mushroom racks for it to grow.",
-    "seed_data": { "plant_name": "hardened bramble", "fruit": "caveyot_bush_quarry", "byproducts": [ "withered" ], "grow": "14 days" },
+    "seed_data": { "plant_name": "hardened bramble", "fruit": "caveyot_bush_quarry", "byproducts": [ "stick" ], "grow": "14 days" },
     "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   }
 ]
