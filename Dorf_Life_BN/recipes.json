@@ -177,5 +177,70 @@
       [ [ "rag", -1 ] ]
     ],
     "components": [ [ [ "caveyot_bush_quarry", 1 ] ] ]
+  },
+  {
+    "result": "seed_caveyot_helmet_plump",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "caveyot_helmet_plump", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
+  },
+  {
+    "result": "seed_caveyot_pod_sweet",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "caveyot_pod_sweet", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
+  },
+  {
+    "result": "seed_caveyot_wheat_cave",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "caveyot_wheat_cave", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
+  },
+  {
+    "result": "seed_caveyot_tails_pig",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "5 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "caveyot_tails_pig", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
+  },
+  {
+    "result": "seed_caveyot_bush_quarry",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "survival",
+    "difficulty": 3,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
+    "components": [ [ [ "caveyot_bush_quarry", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
   }
 ]

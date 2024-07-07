@@ -16,7 +16,9 @@
     "material": "mushroom",
     "volume": "250 ml",
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
-    "fun": -1
+    "fun": -1,
+    "charges": 4,
+    "vitamins": [ [ "vitC", 4 ], [ "iron", 7 ] ]
   },
   {
     "type": "COMESTIBLE",
@@ -48,7 +50,8 @@
     "description": "A bright red bulb resembling an onion, far more scarlet than the purple of any earthly red onion.  Though it gives off a sweet aroma, its layers are tough and difficult to peel, making it inedible as-is.",
     "price": "150 cent",
     "material": [ "mushroom", "wood" ],
-    "volume": "250 ml"
+    "volume": "250 ml",
+    "charges": 4
   },
   {
     "type": "COMESTIBLE",
@@ -61,7 +64,8 @@
     "description": "A long stalk covered with fluffy clumps of powdery growth, vaguely resembling cotton bolls.  The resemblance is merely visual, as it simply crumbles into powder if pulled apart.",
     "price": "300 cent",
     "material": [ "mushroom", "powder" ],
-    "volume": "250 ml"
+    "volume": "250 ml",
+    "charges": 4
   },
   {
     "type": "COMESTIBLE",
@@ -74,7 +78,8 @@
     "description": "A stalk of plantlike growth that naturally curls in on itself in a spiral, covered with short, thin leaves.  Every part of the \"plant\" is tough and stringy.",
     "price": "400 cent",
     "material": [ "mushroom", "powder" ],
-    "volume": "250 ml"
+    "volume": "250 ml",
+    "charges": 4
   },
   {
     "type": "COMESTIBLE",
@@ -87,12 +92,13 @@
     "description": "A woody, tangled branch covered in pods resembling overgrown pecans.  Some of the growths are smaller, softer, and greener in color, but the whole thing seems inedible and useless as-is.",
     "price": "2 USD",
     "material": "wood",
-    "volume": "250 ml"
+    "volume": "250 ml",
+    "charges": 4
   },
   {
     "type": "COMESTIBLE",
     "id": "caveyot_bush_quarry_cooked",
-    "name": { "str": "handful of roasted hardened bramble nuts", "str_pl": "handfuls of roasted hardened bramble nuts" },
+    "name": { "str_sp": "roasted bramble nuts" },
     "looks_like": "hickory_nut_roasted",
     "weight": "120 g",
     "color": "brown",
@@ -100,13 +106,59 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "quench": -4,
-    "calories": 200,
+    "calories": 400,
     "description": "A handful of pods stripped from a strange branch, roasted in their shells due to how rock-hard they were.  Doing so softened and split open the shells, leaving nuts that seem to have been fried in the pod's own oil.",
     "price": "150 cent",
     "material": [ "mushroom", "nut" ],
     "volume": "250 ml",
-    "charges": 2,
+    "charges": 4,
     "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
-    "fun": 2
+    "fun": 2,
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 4 ] ]
+  },
+  {
+    "id": "seed_caveyot_helmet_plump",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "dark truffle spores" },
+    "description": "Some dark truffle spores.  You could probably \"plant\" this, but it would require tree trunks or dedicated mushroom racks for it to grow.",
+    "seed_data": { "plant_name": "dark truffle", "fruit": "caveyot_helmet_plump", "byproducts": [ "withered" ], "required_terrain_flag": "MUSHROOM_PLANTABLE", "grow": "14 days" },
+    "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
+  },
+  {
+    "id": "seed_caveyot_pod_sweet",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "vibrant bulb spores" },
+    "description": "Some vibrant bulb spores.  You could probably \"plant\" this, but it would require tree trunks or dedicated mushroom racks for it to grow.",
+    "seed_data": { "plant_name": "vibrant bulb", "fruit": "caveyot_pod_sweet", "byproducts": [ "withered" ], "required_terrain_flag": "MUSHROOM_PLANTABLE", "grow": "14 days" },
+    "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
+  },
+  {
+    "id": "seed_caveyot_wheat_cave",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "cloudy brush spores" },
+    "description": "Some cloudy brush spores.  You could probably \"plant\" this, but it would require tree trunks or dedicated mushroom racks for it to grow.",
+    "seed_data": { "plant_name": "cloudy brush", "fruit": "caveyot_wheat_cave", "byproducts": [ "straw_pile" ], "required_terrain_flag": "MUSHROOM_PLANTABLE", "grow": "14 days" },
+    "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
+  },
+  {
+    "id": "seed_caveyot_tails_pig",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "spiral stalk spores" },
+    "description": "Some spiral stalk spores.  You could probably \"plant\" this, but it would require tree trunks or dedicated mushroom racks for it to grow.",
+    "seed_data": { "plant_name": "spiral stalk", "fruit": "caveyot_tails_pig", "byproducts": [ "withered" ], "required_terrain_flag": "MUSHROOM_PLANTABLE", "grow": "14 days" },
+    "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
+  },
+  {
+    "id": "seed_caveyot_bush_quarry",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "hardened bramble spores" },
+    "description": "Some hardened bramble spores.  You could probably \"plant\" this, but it would require tree trunks or dedicated mushroom racks for it to grow.",
+    "seed_data": { "plant_name": "hardened bramble", "fruit": "caveyot_bush_quarry", "byproducts": [ "stick" ], "required_terrain_flag": "MUSHROOM_PLANTABLE", "grow": "14 days" },
+    "extend": { "flags": [ "CAN_PLANT_UNDERGROUND" ] }
   }
 ]
