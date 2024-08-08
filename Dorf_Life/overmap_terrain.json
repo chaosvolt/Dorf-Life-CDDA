@@ -5,7 +5,7 @@
     "name": "underground breach",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "subway",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
@@ -15,7 +15,7 @@
     "name": "underground breach",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "subway",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
@@ -25,7 +25,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "subway",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
@@ -35,7 +35,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "subway",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
@@ -45,7 +45,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "subway",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
@@ -55,7 +55,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "subway",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
@@ -65,7 +65,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "extras": "subway",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
@@ -75,7 +75,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -84,7 +84,7 @@
     "name": "abandoned market",
     "sym": "#",
     "color": "h_dark_gray",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -93,7 +93,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -102,7 +102,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -111,7 +111,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -120,7 +120,7 @@
     "name": "science lab",
     "sym": "#",
     "color": "blue",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -129,7 +129,7 @@
     "name": "science lab",
     "sym": "#",
     "color": "blue",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -138,7 +138,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -147,7 +147,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -156,7 +156,7 @@
     "name": "hidden camp",
     "sym": "#",
     "color": "dark_gray",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -165,7 +165,7 @@
     "name": "hidden camp",
     "sym": "#",
     "color": "dark_gray",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -174,7 +174,7 @@
     "name": "hidden camp",
     "sym": "#",
     "color": "dark_gray",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -183,7 +183,7 @@
     "name": "hidden camp",
     "sym": "#",
     "color": "dark_gray",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -192,7 +192,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -201,7 +201,7 @@
     "name": "buried anomaly",
     "sym": "#",
     "color": "red",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -210,7 +210,7 @@
     "name": "buried anomaly",
     "sym": "#",
     "color": "red",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -219,7 +219,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -228,7 +228,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -237,7 +237,7 @@
     "name": "buried anomaly",
     "sym": "#",
     "color": "red",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -246,7 +246,7 @@
     "name": "buried anomaly",
     "sym": "#",
     "color": "red",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -255,7 +255,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -264,7 +264,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -273,7 +273,7 @@
     "name": "buried anomaly",
     "sym": "#",
     "color": "red",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -282,7 +282,7 @@
     "name": "buried anomaly",
     "sym": "#",
     "color": "red",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   },
   {
@@ -291,7 +291,7 @@
     "name": "underground cavern",
     "sym": "#",
     "color": "brown",
-    "see_cost": 2,
+    "see_cost": "low",
     "flags": [ "KNOWN_UP", "KNOWN_DOWN" ]
   }
 ]
