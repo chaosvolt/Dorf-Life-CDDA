@@ -169,7 +169,7 @@
         { "group": "drugs_rare", "x": [ 13, 14 ], "y": 14, "chance": 50, "repeat": 5 },
         { "group": "chem_lab", "x": 4, "y": [ 13, 14 ], "chance": 50, "repeat": 6 },
         { "group": "dissection", "x": 4, "y": [ 16, 21 ], "chance": 40, "repeat": 10 },
-        { "group": "fridge", "x": [ 21, 23 ], "y": 16, "chance": 50, "repeat": 8 },
+        { "group": "SUS_fridge_survivor", "x": [ 21, 23 ], "y": 16, "chance": 50, "repeat": 8 },
         { "group": "kitchen", "x": 21, "y": [ 13, 14 ], "chance": 50, "repeat": 4 },
         { "group": "vending_food_items", "x": 25, "y": [ 8, 9 ], "chance": 50, "repeat": 8 },
         { "group": "vending_drink_items", "x": 25, "y": [ 15, 16 ], "chance": 50, "repeat": 8 },
