@@ -5,7 +5,7 @@
     "name": "Dorf Life",
     "authors": [ "Chaosvolt" ],
     "description": "Adds multi-level caverns hidden away in the underground, breaching the subways to add various strange sights to explore.",
-    "version": "BN version, update 10/30/2024",
+    "version": "BN version, update 4/18/2026",
     "category": "buildings",
     "dependencies": [ "bn" ]
   }
